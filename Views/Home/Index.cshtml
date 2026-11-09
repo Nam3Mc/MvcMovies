@@ -1,8 +1,65 @@
 @{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Home";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="text-center py-5">
+    <h1 class="display-4 fw-bold mb-3">🎬 Dreiser's Movie App</h1>
+    <p class="lead text-muted mb-4">
+        Browse, search, and manage your movie collection.
+    </p>
+    <div class="d-flex gap-2 justify-content-center">
+        <a asp-controller="Movies" asp-action="Index" class="btn btn-primary btn-lg">
+            Browse Movies
+        </a>
+        <a asp-controller="Movies" asp-action="Create" class="btn btn-outline-primary btn-lg">
+            + Add a Movie
+        </a>
+    </div>
+</div>
+
+<div class="row g-4 mt-3">
+    <div class="col-md-4">
+        <div class="card h-100">
+            <div class="card-body text-center">
+                <div class="display-6 mb-2">🔍</div>
+                <h5 class="card-title">Search & Filter</h5>
+                <p class="card-text text-muted small">
+                    Filter movies by genre, release year, or title — all from the index page.
+                </p>
+                <a asp-controller="Movies" asp-action="Index" class="btn btn-sm btn-outline-secondary">
+                    Try it
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="card h-100">
+            <div class="card-body text-center">
+                <div class="display-6 mb-2">✏️</div>
+                <h5 class="card-title">Manage Collection</h5>
+                <p class="card-text text-muted small">
+                    Add new titles, edit details, or remove movies you no longer want.
+                </p>
+                <a asp-controller="Movies" asp-action="Create" class="btn btn-sm btn-outline-secondary">
+                    Add a movie
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="card h-100">
+            <div class="card-body text-center">
+                <div class="display-6 mb-2">📖</div>
+                <h5 class="card-title">About</h5>
+                <p class="card-text text-muted small">
+                    Built with ASP.NET Core MVC and Entity Framework Core as a class project.
+                </p>
+                <a asp-controller="Home" asp-action="Privacy" class="btn btn-sm btn-outline-secondary">
+                    Learn more
+                </a>
+            </div>
+        </div>
+    </div>
 </div>

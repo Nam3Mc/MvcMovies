@@ -370,3 +370,4 @@ C:\Users\USUARIO\OneDrive\Desktop\cse325\MvcMovie\obj\Debug\net10.0\scopedcss\Vi
 C:\Users\USUARIO\OneDrive\Desktop\cse325\MvcMovie\obj\Debug\net10.0\scopedcss\projectbundle\MvcMovie.bundle.scp.css
 C:\Users\USUARIO\OneDrive\Desktop\cse325\MvcMovie\obj\Debug\net10.0\compressed\1kt5hl28no-{0}-srdz53kpfw-srdz53kpfw.gz
 C:\Users\USUARIO\OneDrive\Desktop\cse325\MvcMovie\obj\Debug\net10.0\compressed\xzd9bq0s9u-{0}-srdz53kpfw-srdz53kpfw.gz
+C:\Users\USUARIO\OneDrive\Desktop\cse325\MvcMovie\obj\Debug\net10.0\MvcMovie.sourcelink.json

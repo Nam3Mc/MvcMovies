@@ -39,6 +39,7 @@ if (!app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseRouting();
+app.UseRequestLocalization("en-US"); // or your preferred culture
 
 app.UseAuthorization();
 
